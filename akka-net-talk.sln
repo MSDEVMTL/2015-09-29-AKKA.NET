@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Demo", "Akka.Demo\Akka.Demo.csproj", "{F7A41C87-F4E0-4337-A519-5AC6239C86D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Demo.Supervision", "Akka.Demo.Supervision\Akka.Demo.Supervision.csproj", "{3C4DA121-9F4B-4DF4-9976-BC2D20DC5B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Demo.Fsm", "Akka.Demo.Fsm\Akka.Demo.Fsm.csproj", "{772A0307-9BD0-4594-9B2D-81A81F44F07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Demo.Stashing", "Akka.Demo.Stashing\Akka.Demo.Stashing.csproj", "{7C1185AE-5F21-45E1-BAAA-654691068B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Demo.Routing", "Akka.Demo.Routing\Akka.Demo.Routing.csproj", "{BC3D379B-34B1-4BCF-8F36-EE3E70189030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Demo.HelloWorld", "Akka.Demo.HelloWorld\Akka.Demo.HelloWorld.csproj", "{B71A14F5-B625-441E-B5E2-7AA8ABC34A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Demo.Persistence", "Akka.Demo.Persistence\Akka.Demo.Persistence.csproj", "{B7F5F607-2963-4052-9293-8B32F26163DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A41C87-F4E0-4337-A519-5AC6239C86D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A41C87-F4E0-4337-A519-5AC6239C86D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A41C87-F4E0-4337-A519-5AC6239C86D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A41C87-F4E0-4337-A519-5AC6239C86D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4DA121-9F4B-4DF4-9976-BC2D20DC5B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4DA121-9F4B-4DF4-9976-BC2D20DC5B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4DA121-9F4B-4DF4-9976-BC2D20DC5B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4DA121-9F4B-4DF4-9976-BC2D20DC5B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{772A0307-9BD0-4594-9B2D-81A81F44F07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772A0307-9BD0-4594-9B2D-81A81F44F07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772A0307-9BD0-4594-9B2D-81A81F44F07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772A0307-9BD0-4594-9B2D-81A81F44F07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1185AE-5F21-45E1-BAAA-654691068B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1185AE-5F21-45E1-BAAA-654691068B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1185AE-5F21-45E1-BAAA-654691068B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1185AE-5F21-45E1-BAAA-654691068B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3D379B-34B1-4BCF-8F36-EE3E70189030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3D379B-34B1-4BCF-8F36-EE3E70189030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3D379B-34B1-4BCF-8F36-EE3E70189030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3D379B-34B1-4BCF-8F36-EE3E70189030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71A14F5-B625-441E-B5E2-7AA8ABC34A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71A14F5-B625-441E-B5E2-7AA8ABC34A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71A14F5-B625-441E-B5E2-7AA8ABC34A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71A14F5-B625-441E-B5E2-7AA8ABC34A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F5F607-2963-4052-9293-8B32F26163DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F5F607-2963-4052-9293-8B32F26163DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F5F607-2963-4052-9293-8B32F26163DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F5F607-2963-4052-9293-8B32F26163DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
